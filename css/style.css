@@ -1,0 +1,67 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Maven Pro", sans-serif;
+  background-size: cover;
+  position: relative;
+}
+
+.background_overlay {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.input,
+button {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 20px;
+  background: #fff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 400px;
+  width: 600px;
+  background: rgb(179, 178, 176, 0.6);
+}
+
+div {
+  margin: 20px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  position: relative;
+  width: 25%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.contact_results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.fa-trash {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  border-radius: 50%;
+  border: solid black 1px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+}
